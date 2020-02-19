@@ -1,5 +1,6 @@
 --Data for my nearest local city
-SELECT *
+SELECT year,
+       avg_temp
   FROM city_data
  WHERE city = 'London'
    AND country = 'United Kingdom'

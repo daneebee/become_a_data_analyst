@@ -21,10 +21,7 @@ SELECT year
   FROM city_data
  WHERE (city = 'London'
    AND country = 'United Kingdom')
-    OR city IN ('Paris' --more cities here
-   )
-
- UNION ALL
+    OR city IN ('Paris');
 
 SELECT year,
        avg_temp,
